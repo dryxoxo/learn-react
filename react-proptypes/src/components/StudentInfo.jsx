@@ -10,6 +10,6 @@ export default function StudentInfo({ name, age }) {
 }
 
 StudentInfo.propTypes = {
-  name: PropTypyes.string,
+  name: PropTypyes.any.isRequired,
   age: PropTypyes.number,
 };

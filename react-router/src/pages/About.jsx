@@ -1,7 +1,11 @@
+import { Outlet, Link } from "react-router-dom";
+
 export default function About() {
     return (
       <>
-        <h1>Ini About Page</h1>
+      <Outlet />
+      <Link to = {'student'}>Student|</Link>
+      <Link to = {'teacher'}>Teacher</Link>
       </>
     );
   }

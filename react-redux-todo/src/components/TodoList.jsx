@@ -8,7 +8,6 @@ export default function TodoList(){
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log(inputTodo);
         dispatch(addTodo(inputTodo))
     }
 

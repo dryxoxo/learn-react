@@ -3,7 +3,6 @@ import { useSelector } from "react-redux";
 
 export default function SummaryPembelian(){
     const {totalKeranjang}= useSelector(state => state)
-
     return(
         <>
         <div>
